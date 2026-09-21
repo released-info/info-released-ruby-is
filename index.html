@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<!--timestamp=1757809450-->
+<!--timestamp=1790025384-->
 
 <head>
   <meta charset="UTF-8">
@@ -12,25 +12,25 @@
           crossorigin="anonymous"></script>
   
   <title>
-    Is Ruby 3.5 Released?
+    Is Ruby 4.1 Released?
   </title>
   <link rel="icon" href="https://released.info/assets/img/technologies/ruby/ruby.ico" type="image/svg+xml">
-  <meta name="description" content="Is Ruby 3.5 Released?">
+  <meta name="description" content="Is Ruby 4.1 Released?">
   <meta name="keywords" content="Ruby, release, date, when, programming, language, development">
-  <meta name=”robots” content="index, follow">
+  <meta name="robots" content="index, follow">
 
   <!-- facebook -->
   <meta property="og:url" content="https://is.ruby.released.info" />
   <meta property="og:type" content="website" />
-  <meta property="og:title" content="Is Ruby 3.5 Released?" />
-  <meta property="og:description" content="Ruby 3.5 will be released in 107 days! #released.info" />
+  <meta property="og:title" content="Is Ruby 4.1 Released?" />
+  <meta property="og:description" content="Ruby 4.1 will be released in 95 days! #released.info" />
   <meta property="og:image" content="https://released.info/assets/img/technologies/ruby/ruby-logo.png" />
 
   <!-- twitter -->
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:site" content="ReleasedInfo" />
-  <meta name="twitter:title" content="Is Ruby 3.5 Released?" />
-  <meta name="twitter:description" content="Ruby 3.5 will be released in 107 days! #released.info" />
+  <meta name="twitter:title" content="Is Ruby 4.1 Released?" />
+  <meta name="twitter:description" content="Ruby 4.1 will be released in 95 days! #released.info" />
   <meta name="twitter:image" content="https://released.info/assets/img/technologies/ruby/ruby-logo.png" />
 
   <meta name="url" content="https://is.ruby.released.info" />
@@ -47,7 +47,7 @@
 
 <body>
 
-  <input id="released-days" type="hidden" value="107" />
+  <input id="released-days" type="hidden" value="95" />
 
   <main role="main">
     <a href="https://released.info/index.html" class="go-back"><i class="bi bi-arrow-left"></i></a>
@@ -72,13 +72,13 @@
           </li>
         </ul>
         <h2>
-          Is Ruby 3.5 Released?
+          Is Ruby 4.1 Released?
         </h2>
         <div class="row">
           <div class="col-lg-8">
 
             <div id="logo">
-              <span role="img" aria-label="${configuration.logoAlt}"
+              <span role="img" aria-label="Ruby logo"
                 style="background-image: url(&#39;https://released.info/assets/img/technologies/ruby/ruby-logo.png&#39;);">
               </span>
             </div>
@@ -91,6 +91,7 @@
                 <div id="odometer"></div>
               </div>
             </span>
+            <!-- A counter that reached zero falls back to "Not Yet" instead of an empty box until the state is updated -->
             
             
 
@@ -101,10 +102,14 @@
         <div class="row">
           <div class="col-lg-8">
             <h3 id="highlightTextDescription1">
-              Days until Ruby 3.5 is officially released
+              Days until Ruby 4.1 is officially released
             </h3>
           </div>
-          
+          <div class="col-lg-8">
+            <h4 id="highlightTextDescription2">
+              Ruby ships a major release every Christmas, Ruby 4.0 came out on <span class="btn-primary">25th December 2025</span>, the latest version is Ruby 4.0.7
+            </h4>
+          </div>
         </div>
         <div class="text-center">
           <a class="share-twitter" target="_blank">
@@ -118,26 +123,26 @@
     <section class="features-section">
       <div class="container-lg">
         <h2>
-          Meet Ruby 3.5
+          Meet Ruby 4.1
         </h2>
         <div class="row mb-5">
           <div class="col-md-5">
 
             <ul>
               <li>
-                Prism Parser
+                Per-Ractor garbage collection
               </li>
             </ul>
 
             <ul>
               <li>
-                Deprecation Warnings
+                Bump pointer allocator for the default GC
               </li>
             </ul>
 
             <ul>
               <li>
-                Keyword Splatting
+                Module#descendants and Integer#bit_count
               </li>
             </ul>
 
@@ -145,17 +150,17 @@
           <div class="col-md-5">
             <ul>
               <li>
-                Happy Eyeballs Version 2 Support
+                String#tr accepts a Hash, new Range#clamp
               </li>
             </ul>
             <ul>
               <li>
-                YJIT Compiler Enhancements
+                All Regexp instances are frozen
               </li>
             </ul>
             <ul>
               <li>
-                Modular Garbage Collector
+                Kernel#autoload_relative and Proc#refined
               </li>
             </ul>
           </div>
@@ -165,7 +170,7 @@
         </div>
       </div>
       <div class="logo-container">
-        <span role="img" aria-label="${configuration.logoAlt2}"
+        <span role="img" aria-label="Ruby logo"
           style="background-image: url(&#39;https://released.info/assets/img/technologies/ruby/ruby-logo2.png&#39;);">
         </span>
       </div>
@@ -182,7 +187,7 @@
             <!-- repeat below container for each image: -->
             <div class="col-md-4">
               <!-- <span role="img" aria-label="_IMAGE_ALT_" style="background-image: url('_ITERATOR_IMAGE_SRC_');">-->
-              <span role="img" aria-label="${post.imageAlt}"
+              <span role="img" aria-label="Book: The Ruby Programming Language"
                 style="background-image: url(&#39;https://released.info/assets/img/technologies/ruby/book-Ruby-on-Rails.jpg&#39;);">
                 <a target="_blank" href="https://www.amazon.de/-/en/Bruce-Tate-ebook/dp/B0026OR2FO?&amp;_encoding=UTF8&amp;tag=released-info-21&amp;linkCode=ur2&amp;linkId=2cfef0c84d3be5e4264809fb9387d5da&amp;camp=1638&amp;creative=6742">
                   <span>
@@ -196,7 +201,7 @@
             <!-- repeat below container for each image: -->
             <div class="col-md-4">
               <!-- <span role="img" aria-label="_IMAGE_ALT_" style="background-image: url('_ITERATOR_IMAGE_SRC_');">-->
-              <span role="img" aria-label="${post.imageAlt}"
+              <span role="img" aria-label="Book: Beginning Ruby"
                 style="background-image: url(&#39;https://released.info/assets/img/technologies/ruby/book-Beginning-Ruby.jpg&#39;);">
                 <a target="_blank" href="https://www.amazon.de/-/en/Peter-Cooper/dp/1430223634?&amp;_encoding=UTF8&amp;tag=released-info-21&amp;linkCode=ur2&amp;linkId=434305e80cc96a23bcaffb75b6026000&amp;camp=1638&amp;creative=6742">
                   <span>
@@ -210,7 +215,7 @@
             <!-- repeat below container for each image: -->
             <div class="col-md-4">
               <!-- <span role="img" aria-label="_IMAGE_ALT_" style="background-image: url('_ITERATOR_IMAGE_SRC_');">-->
-              <span role="img" aria-label="${post.imageAlt}"
+              <span role="img" aria-label="Book: The Little Book Of Ruby Programming"
                 style="background-image: url(&#39;https://released.info/assets/img/technologies/ruby/book-The-Little-Book-Of-Ruby-Programming.jpg&#39;);">
                 <a target="_blank" href="https://www.amazon.de/-/en/Huw-Collingbourne/dp/1913132072?&amp;_encoding=UTF8&amp;tag=released-info-21&amp;linkCode=ur2&amp;linkId=d9bfce632f98bbd5b36d35e0d2bd62ba&amp;camp=1638&amp;creative=6742">
                   <span>
@@ -224,7 +229,7 @@
             <!-- repeat below container for each image: -->
             <div class="col-md-4">
               <!-- <span role="img" aria-label="_IMAGE_ALT_" style="background-image: url('_ITERATOR_IMAGE_SRC_');">-->
-              <span role="img" aria-label="${post.imageAlt}"
+              <span role="img" aria-label="Book: The Well-Grounded Rubyist"
                 style="background-image: url(&#39;https://released.info/assets/img/technologies/ruby/book-The-Well-Grounded-Rubyist.jpg&#39;);">
                 <a target="_blank" href="https://www.amazon.de/-/en/David-Black/dp/1617295213?&amp;_encoding=UTF8&amp;tag=released-info-21&amp;linkCode=ur2&amp;linkId=03ab6f100e850d4675c5c3ac5ccf2844&amp;camp=1638&amp;creative=6742">
                   <span>
@@ -238,7 +243,7 @@
             <!-- repeat below container for each image: -->
             <div class="col-md-4">
               <!-- <span role="img" aria-label="_IMAGE_ALT_" style="background-image: url('_ITERATOR_IMAGE_SRC_');">-->
-              <span role="img" aria-label="${post.imageAlt}"
+              <span role="img" aria-label="Book: Head First Ruby"
                 style="background-image: url(&#39;https://released.info/assets/img/technologies/ruby/book-Head-First-Ruby.jpg&#39;);">
                 <a target="_blank" href="https://www.amazon.de/-/en/Jay-Mcgavren/dp/1449372651?&amp;_encoding=UTF8&amp;tag=released-info-21&amp;linkCode=ur2&amp;linkId=3fdacd6e7afaa777c12fa52fde7de3dc&amp;camp=1638&amp;creative=6742">
                   <span>
@@ -252,7 +257,7 @@
             <!-- repeat below container for each image: -->
             <div class="col-md-4">
               <!-- <span role="img" aria-label="_IMAGE_ALT_" style="background-image: url('_ITERATOR_IMAGE_SRC_');">-->
-              <span role="img" aria-label="${post.imageAlt}"
+              <span role="img" aria-label="Book: Clean Ruby"
                 style="background-image: url(&#39;https://released.info/assets/img/technologies/ruby/book-Clean-Ruby.jpg&#39;);">
                 <a target="_blank" href="https://www.amazon.de/-/en/Carleton-DiLeo/dp/1484255453?&amp;_encoding=UTF8&amp;tag=released-info-21&amp;linkCode=ur2&amp;linkId=d31683d8aa6dd4c3b818afd5c020c1c3&amp;camp=1638&amp;creative=6742">
                   <span>
@@ -307,7 +312,7 @@
     <h1>About Ruby</h1>
     Ruby is a dynamically typed programming language, that uses garbage collection and just-in-time compilation. <br />
     <br />
-    Ruby is a relatively new language, released for the first time in 1995,
+    Ruby was released for the first time in 1995,
     where it was created by a single man Yukihiro Matsumoto, after no less than 2 years of developing it.
     Ruby is a multi-paradigm language, but the main focus is object-oriented programming,
     where even the classes (bool, str, etc.) are objects in their own right.
@@ -335,8 +340,7 @@
         that the complexity behind what the programmer can see is what allows such elegant solutions for everyone.
         <br />
         <h3>Releases</h3>
-        Ruby is currently on the 3.0.1 release, which was put out on the 5th of April of the present year, 2021.
-        Ruby is consistently updated, with over 4 other releases before the stable 3.0.1 in the same year.
+        Ruby is currently on the 4.0.7 release, put out on 15th September 2026. Ruby 4.0.0 was released on 25th December 2025 and Ruby 4.1 is expected at Christmas 2026, as every new Ruby version ships on 25th December.
         This goes to show how well maintained the language is, even if not as popular as before.
     </div>
 </div>
